@@ -1,0 +1,27 @@
+
+.label1
+{
+   -fx-font-size : 18 ;
+}
+.titre{
+ -fx-font-size : 28 ;
+}
+
+.backgr
+{
+   -fx-background-color : "white" ;
+}
+
+.backBtn
+{
+  -fx-background-color : "transparent" ;
+}
+
+.grid
+{
+   -fx-background-color : "white" ;
+}
+.scroll
+{
+   -fx-background-color : "transparent" ;
+}

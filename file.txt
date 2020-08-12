@@ -1,0 +1,32 @@
+This system contains 16 base stations :
+
+Base Station 0 | x = 75.0 | y = 75.0 | nodes = 
+Base Station 1 | x = 225.0 | y = 75.0 | nodes = 
+Base Station 2 | x = 375.0 | y = 75.0 | nodes = 
+Base Station 3 | x = 525.0 | y = 75.0 | nodes = 1|4|6|9|10|
+Base Station 4 | x = 75.0 | y = 225.0 | nodes = 
+Base Station 5 | x = 225.0 | y = 225.0 | nodes = 
+Base Station 6 | x = 375.0 | y = 225.0 | nodes = 
+Base Station 7 | x = 525.0 | y = 225.0 | nodes = 3|
+Base Station 8 | x = 75.0 | y = 375.0 | nodes = 
+Base Station 9 | x = 225.0 | y = 375.0 | nodes = 0|
+Base Station 10 | x = 375.0 | y = 375.0 | nodes = 11|
+Base Station 11 | x = 525.0 | y = 375.0 | nodes = 2|8|
+Base Station 12 | x = 75.0 | y = 525.0 | nodes = 5|
+Base Station 13 | x = 225.0 | y = 525.0 | nodes = 
+Base Station 14 | x = 375.0 | y = 525.0 | nodes = 7|
+Base Station 15 | x = 525.0 | y = 525.0 | nodes = 
+
+Here is its list of nodes   :
+Node 0 | x = 184 | y =321 SB =9
+Node 1 | x = 520 | y =128 SB =3
+Node 2 | x = 593 | y =358 SB =11
+Node 3 | x = 547 | y =173 SB =7
+Node 4 | x = 575 | y =135 SB =3
+Node 5 | x = 40 | y =521 SB =12
+Node 6 | x = 499 | y =149 SB =3
+Node 7 | x = 370 | y =571 SB =14
+Node 8 | x = 582 | y =407 SB =11
+Node 9 | x = 515 | y =10 SB =3
+Node 10 | x = 568 | y =119 SB =3
+Node 11 | x = 427 | y =352 SB =10

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="750.0" styleClass="backgr" stylesheets="@../styles/panestyle.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GenerationController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="0.0" prefWidth="9.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="600.0" minWidth="10.0" prefWidth="600.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="600.0" minWidth="5.0" prefWidth="15.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="139.0" minHeight="10.0" prefHeight="130.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="600" minHeight="10.0" prefHeight="600.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="311.0" minHeight="10.0" prefHeight="96.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Pane GridPane.columnIndex="1">
+         <children>
+            <Label layoutX="111.0" layoutY="24.0" styleClass="titre" stylesheets="@../styles/panestyle.css" text="Mobile Network Simulator">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#5a6cdd" />
+                        <Stop color="#eb7feb" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill></Label>
+            <ImageView fitHeight="70.0" fitWidth="77.0" layoutX="467.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images_icones/network.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="button" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="69.0" prefWidth="77.0" styleClass="backBtn" stylesheets="@../styles/panestyle.css" GridPane.rowIndex="2">
+         <graphic>
+            <ImageView fitHeight="47.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images_icones/arrow.png" />
+               </image></ImageView>
+         </graphic>
+         <GridPane.margin>
+            <Insets left="80.0" />
+         </GridPane.margin>
+      </Button>
+      <ScrollPane hbarPolicy="ALWAYS" pannable="true" prefHeight="621.0" prefWidth="600.0" vbarPolicy="ALWAYS" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <content>
+            <Pane fx:id="paneCenter" prefHeight="200.0" prefWidth="200.0" styleClass="pane" stylesheets="@../styles/panestyle.css" />
+         </content>
+      </ScrollPane>
+      <Button fx:id="saveBtn" mnemonicParsing="false" onAction="#handleSaveBtnAction" prefHeight="69.0" prefWidth="77.0" styleClass="backBtn" stylesheets="@../styles/panestyle.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="520.0" />
+         </GridPane.margin>
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" styleClass="backBt">
+               <image>
+                  <Image url="@../images_icones/save.png" />
+               </image></ImageView>
+         </graphic>
+         <padding>
+            <Insets top="7.0" />
+         </padding>
+      </Button>
+      <Button fx:id="MobBtn" mnemonicParsing="false" onAction="#handleMobilityBtn" prefHeight="69.0" prefWidth="77.0" styleClass="backBtn" stylesheets="@../styles/panestyle.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <graphic>
+            <ImageView fitHeight="33.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images_icones/bouger.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <GridPane.margin>
+            <Insets left="460.0" />
+         </GridPane.margin>
+         <padding>
+            <Insets top="6.0" />
+         </padding>
+      </Button>
+      <Button fx:id="CLEARBtn" mnemonicParsing="false" onAction="#handleClearBtn" prefHeight="69.0" prefWidth="77.0" styleClass="backBtn" stylesheets="@../styles/panestyle.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <graphic>
+            <ImageView fitHeight="38.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images_icones/cls.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <padding>
+            <Insets top="6.0" />
+         </padding>
+         <GridPane.margin>
+            <Insets left="400.0" />
+         </GridPane.margin>
+      </Button>
+   </children>
+</GridPane>
